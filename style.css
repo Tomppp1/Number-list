@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #330033;
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;  
+}
+ul{
+    display: inline-block;   
+}
+li{
+    list-style: none;
+    border-bottom: 9px solid #51a3cc;
+    text-align: center;
+    letter-spacing: 22px;
+    font-size: 24px;
+    width: 200px;
+}
+p{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    color: #66ccff;
+}
+#last{
+    border: none;
+}
